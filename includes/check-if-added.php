@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("test5.chaw264c6t0p.us-east-1.rds.amazonaws.com", "admin", "12345678", "ecommerce");
+$con = mysqli_connect("t3.chaw264c6t0p.us-east-1.rds.amazonaws.com", "admin", "12345678", "ecommerce");
 //This code checks if the product is added to cart. 
 function check_if_added_to_cart($item_id) {
     

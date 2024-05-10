@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("test5.chaw264c6t0p.us-east-1.rds.amazonaws.com", "admin", "12345678", "ecommerce");
+$con = mysqli_connect("t3.chaw264c6t0p.us-east-1.rds.amazonaws.com", "admin", "12345678", "ecommerce");
 require "includes/common.php";
 session_start();
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {
